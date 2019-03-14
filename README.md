@@ -1,35 +1,39 @@
 # [react-router-webpack-example](https://github.com/StevenIseki/react-router-webpack-example)
 
-An extremely minimal example of using react, react-router, webpack and css modules in development
+An extremely minimal example of using react router, webpack and styled components in production with universal rendering and in development with live reloading...
+
+Styled components server rendering setup inspired by Dennis Brotzky [guide-to-server-side-rendering-react-with-styled-components](https://medium.com/styled-components/the-simple-guide-to-server-side-rendering-react-with-styled-components-d31c6b2b8fbf)
+
+![](images/react.png)
+![](images/styled-components.png)
+![](images/webpack.png)
 
 ## Dependencies
 
-* **react** `15.3.1`
-* **react-router** `2.8.1`
-* **babel** `6.7.6`
-* **webpack** `1.13.2`
-* **webpack-dev-server** `1.16.2`
-* **express** `4.13.4`
-* **css modules**
+* **react** `16.0.0`
+* **react-router** `4.3.1`
+* **babel** `7.3.3`
+* **webpack** `4.29.4`
+* **styled components** `4.1.3`
 
 ## Run Dev
 
 * webpack dev server with hot reloading, no server rendering
 
 ```
-npm install
-npm run dev
-open http://127.0.0.1:5000
+yarn
+yarn dev
+open http://127.0.0.1:3000
 ```
 
-## Run Prod
+## Run Server
 
 * Universal server side rendering!
 
 ```
-npm install
-npm run build
-npm run prod
+yarn
+yarn build
+yarn prod
 open http://127.0.0.1:3000
 ```
 
@@ -38,8 +42,8 @@ open http://127.0.0.1:3000
 * Using Enzyme, Tape and Jsdom
 
 ```
-npm install
-npm test
+yarn
+yarn test
 ```
 
 ## License
