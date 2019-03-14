@@ -3,7 +3,7 @@
 An extremely minimal example of using react router, webpack and styled components in development with live reloading...
 
 ![](images/react.png)
-![](images/react-router.png)
+![](images/react-router-x.png)
 ![](images/styled-components.png)
 ![](images/webpack.png)
 
