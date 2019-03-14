@@ -1,22 +1,29 @@
 import React from 'react'
 import styled from 'styled-components'
-import Buttons from './components/Buttons'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Header from './components/Header'
+import Home from './components/Home'
+import Teams from './components/Teams'
 
 const App = () => (
   <AppContainer>
-    <Buttons />
+    <Router>
+      <div>
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route path="/teams" component={Teams} />
+      </div>
+    </Router>
   </AppContainer>
 )
 
 const AppContainer = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
   width: 100%;
-  height: 100%;
-  font-size: 40px;
+  min-height: 100vh;
+  font-size: 20px;
+  padding: 20px 40px;
   background: linear-gradient(20deg, rgb(219, 112, 147), #daa357);
-`;
+`
 
 export default App

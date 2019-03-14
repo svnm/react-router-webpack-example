@@ -9,4 +9,4 @@ import Adapter from 'enzyme-adapter-react-16'
 configure({ adapter: new Adapter() })
 
 /* components */
-require('./components/Demo.spec.js');
+require('./components/Home.spec.js');

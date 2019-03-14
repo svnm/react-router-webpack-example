@@ -1,8 +1,6 @@
 # [react-router-webpack-example](https://github.com/StevenIseki/react-router-webpack-example)
 
-An extremely minimal example of using react router, webpack and styled components in production with universal rendering and in development with live reloading...
-
-Styled components server rendering setup inspired by Dennis Brotzky [guide-to-server-side-rendering-react-with-styled-components](https://medium.com/styled-components/the-simple-guide-to-server-side-rendering-react-with-styled-components-d31c6b2b8fbf)
+An extremely minimal example of using react router, webpack and styled components in development with live reloading...
 
 ![](images/react.png)
 ![](images/styled-components.png)
@@ -23,17 +21,6 @@ Styled components server rendering setup inspired by Dennis Brotzky [guide-to-se
 ```
 yarn
 yarn dev
-open http://127.0.0.1:3000
-```
-
-## Run Server
-
-* Universal server side rendering!
-
-```
-yarn
-yarn build
-yarn prod
 open http://127.0.0.1:3000
 ```
 
